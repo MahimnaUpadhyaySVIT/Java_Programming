@@ -3,17 +3,18 @@ import java.util.Scanner;
 class q19Creator {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-
-        Savings savingsObj = new Savings();
-        Current currentObj = new Current();
-
+		
         System.out.println("Enter your bank account no: ");
         int accountNo = scn.nextInt();
 
         System.out.println("Enter your balance: ");
         int balanceAmount = scn.nextInt();
+ 
+		Savings savingsObj = new Savings();
+        Current currentObj = new Current();
+		AccountInfo accountInfoObj = new AccountInfo(accountNo, balanceAmount);
 
-        System.out.println("Enter your account type: [1] Savings \n[2] Current");
+        System.out.println("Enter your account type: \n [1] Savings \n [2] Current");
         int accountType = scn.nextInt();
 
         switch (accountType) {
@@ -23,7 +24,7 @@ class q19Creator {
 
                 savingsObj.setValues(accountNo, rateOfInterest, balanceAmount);
 
-                System.out.println("Want to deposit money? [1] Yes \n[2] No");
+                System.out.println("Want to deposit money? \n [1] Yes \n [2] No");
                 int yesOrNo = scn.nextInt();
 
                 if (yesOrNo == 1) {
@@ -43,7 +44,7 @@ class q19Creator {
 
                 currentObj.setValues(accountNo, amountLimit, balanceAmount);
 
-                System.out.println("Want to withdraw money? [1] Yes \n[2] No");
+                System.out.println("Want to withdraw money? \n [1] Yes \n [2] No");
                 int trueOrFalse = scn.nextInt();
 
                 if (trueOrFalse == 1) {

@@ -5,15 +5,17 @@
 		 instance variable called overdraftLimit. Define appropriatemethods for all the classes to
 		 enable functionalities to check balance, deposit, and withdraw amount in Savings and
 		 Current account. [Ensure that the Account class cannot be instantiated.] 
+
+	Q20. Write a program in Java in which a subclass constructor invokes the constructor of the
+		 super class and instantiate the values. [ refer class Account and sub classes
+		 savingAccount andCurrentAccount in Q 19 for this task]
 */
 
 abstract class Account { 
-    int accountNo;
-    int balance;
+    int accountNo, balance;
 
     Account() {
-        accountNo = 0;
-        balance = 0;
+		checkBalance();
     }
 
     void checkBalance() {
@@ -63,3 +65,10 @@ class Current extends Account {
     }
 }
 
+class AccountInfo extends Account{
+	AccountInfo(int x, int y){
+		super();
+		accountNo = x;
+		balance = y;
+	}
+}
