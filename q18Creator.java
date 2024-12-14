@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class q18Creator{
+class q18Creator{
 	public static void main(String[] args){
 		
 		Scanner scn = new Scanner(System.in);

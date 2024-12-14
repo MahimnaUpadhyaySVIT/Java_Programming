@@ -4,7 +4,7 @@
 		 by defining the display() in both super and sub class [Method Overriding]
 */
 
-public class q18{
+class q18{
 
 	String vehicle_type;
 
@@ -17,7 +17,7 @@ public class q18{
 	}
 }
 
-public class Car extends q18{
+class Car extends q18{
 	
 	String model_type, company_name;
 
@@ -34,7 +34,6 @@ public class Car extends q18{
 		company_name = cName;
 	}
 
-	@override
 	void display(){
 		System.out.println("Vehicle Type: " + vehicle_type + " Model Type: " + model_type + " Company name: " + company_name);
 	}
