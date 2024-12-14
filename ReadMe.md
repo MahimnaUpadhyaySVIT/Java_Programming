@@ -9,7 +9,7 @@
 <p>1. Clone the Git Repo</p>
 
 ```
-https://github.com/MahimnaUpadhyaySVIT/Java_Programming.git
+git clone https://github.com/MahimnaUpadhyaySVIT/Java_Programming.git
 ```
 
 <p>2. Install JDK</p>
