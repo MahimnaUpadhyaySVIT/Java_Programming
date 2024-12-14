@@ -1,10 +1,12 @@
-/* Write a java program to create a class “Matrix” that would contain integer values having
- varied Numbers of columns for each row. Print row-wise sum of the integer values for
- eachrow. */
+/*	
+ 	Q9. Write a java program to create a class “Matrix” that would contain integer values having
+ 		varied Numbers of columns for each row. Print row-wise sum of the integer values for
+ 		eachrow. 
+*/
 
 import java.util.*;
 
-class matrix_row_sum{
+class q9{
 	public static void main(String[] args){
 		
 		int sum;

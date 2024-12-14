@@ -1,6 +1,12 @@
+/* 
+	Q8. Write a program in Java to multiply two matrix.
+		Declare a class Matrix where 2D array is declared as instance variable and array shouldbe
+		initialized, within class.
+*/
+
 import java.util.*;
 
-class matrix{
+class q8{
 	public static void main(String args[]){
 
 		Scanner scn = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ReactangleCreator{
+class q14Creator{
 
 	static {
 		System.out.println("This is a static block inside a MAIN class i.e. ReactangleCreator");
@@ -16,13 +16,13 @@ class ReactangleCreator{
 		System.out.println("Enter width of a reactangle: ");
 		int width = scn.nextInt();
 
-		Reactangle reactangle_obj1 = new Reactangle();
-		Reactangle reactangle_obj2 = new Reactangle(length, width);
+		q14 reactangle_obj1 = new q14();
+		q14 reactangle_obj2 = new q14(length, width);
 
-		System.out.println("Reactangle_obj1 is called to for area method");
+		System.out.println("Reactangle_obj1 is called for area method");
 		reactangle_obj1.area(length, width);
 
-		System.out.println("Reactangle_obj2 is called to display the values");
+		System.out.println("Reactangle_obj2 is called for display method");
 		reactangle_obj2.display();
 	}
 }

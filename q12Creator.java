@@ -1,6 +1,6 @@
 import java.util.*;
 
-class studentCreator{
+class q12Creator{
 	public static void main(String[] args){
 		Scanner scn = new Scanner(System.in);
 		
@@ -16,7 +16,7 @@ class studentCreator{
 		System.out.print("Enter student total marks: ");
 		int totalMarks = scn.nextInt();
 
-		student student_obj = new student(sid, sname, sgender, totalMarks);
+		q12 student_obj = new q12(sid, sname, sgender, totalMarks);
 		student_obj.display();
 	}
 }
