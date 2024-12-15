@@ -10,7 +10,7 @@
 
 package apack;
 
-class A{
+public class A{
 	public int a=10;
 	protected int b=10;
 	private int c=10;

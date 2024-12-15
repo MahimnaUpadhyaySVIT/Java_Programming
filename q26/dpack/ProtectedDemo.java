@@ -3,7 +3,7 @@ package dpack;
 import bpack.B;
 import cpack.C;
 
-class ProctectedDemo{
+class ProtectedDemo{
 	public static void main(String arg[]){
 		B Bobj = new B();
 		C Cobj = new C();
