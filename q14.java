@@ -1,4 +1,4 @@
-/* 	Q14. Create a class “Rectangle” that would contain length and width as an instance variable and
+/* 	Q13. Create a class “Rectangle” that would contain length and width as an instance variable and
 		 count as a static variable.
 		 Define constructors [constructor overloading (default, parameterized and copy)] to
 		 initialize variables of objects. Define methods to find area and to display variables’value of
